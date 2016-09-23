@@ -79,6 +79,6 @@ RUN apt-get update -y && \
 
 WORKDIR /opt/tomcat
 VOLUME /opt/tomcat
-EXPOSE 8080 5000
+EXPOSE 9090 5000
 
 CMD /./startup.sh
